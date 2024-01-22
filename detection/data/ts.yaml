@@ -1,0 +1,11 @@
+
+train: ./TS/train.txt  
+val: ./TS/val.txt  
+test: ./TS/test.txt  
+
+# number of classes
+nc: 7
+
+# class names
+names: [ 'pedestrian', 'car', 'motorcycle', 'bus', 'truck', 'traffic light', 'traffic sign' ]
+
